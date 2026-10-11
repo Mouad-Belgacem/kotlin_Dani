@@ -1,0 +1,70 @@
+{
+  "empty": {
+    "text": "",
+    "expected": false
+  },
+  "full_bismillah": {
+    "text": "بِسْمِ اِ۬للَّهِ اِ۬لرَّحْمَٰنِ اِ۬لرَّحِيمِ",
+    "expected": true
+  },
+  "full_istiadha": {
+    "text": "فَاسْتَعِذْ بِاللَّهِ مِنَ اَ۬لشَّيْطَٰنِ اِ۬لرَّجِيمِۖ",
+    "expected": true
+  },
+  "bismillah_prefix_5": {
+    "text": "بِسْم",
+    "expected": true
+  },
+  "bismillah_from_6": {
+    "text": " اِ۬للَّهِ اِ۬لرَّحْمَٰنِ اِ۬لرَّحِيمِ",
+    "expected": true
+  },
+  "istiadha_prefix_8": {
+    "text": "فَاسْتَع",
+    "expected": true
+  },
+  "at_tawbah_9_1_real_text": {
+    "text": "بَرَآءَةٞ مِّنَ اَ۬للَّهِ وَرَسُولِهِۦٓ إِلَي اَ۬لذِينَ عَٰهَدتُّم مِّنَ اَ۬لْمُشْرِكِينَۖ",
+    "expected": false
+  },
+  "al_fatiha_1_1_real_text": {
+    "text": "بِسْمِ اِ۬للَّهِ اِ۬لرَّحْمَٰنِ اِ۬لرَّحِيمِ  اِ۬لْحَمْدُ لِلهِ رَبِّ اِ۬لْعَٰلَمِينَ",
+    "expected": false
+  },
+  "unrelated_verse_2_255_real_text": {
+    "text": "لَآ إِكْرَاهَ فِے اِ۬لدِّينِۖ قَد تَّبَيَّنَ اَ۬لرُّشْدُ مِنَ  اَ۬لْغَيِّۖ فَمَنْ يَّكْفُرْ بِالطَّٰغُوتِ وَيُومِنۢ بِاللَّهِ فَقَدِ اِ۪سْتَمْسَكَ  بِالْعُرْوَةِ اِ۬لْوُثْق۪يٰ لَا اَ۪نفِصَامَ لَهَاۖ وَاللَّهُ سَمِيعٌ عَلِيمٌۖ",
+    "expected": false
+  },
+  "at_tawbah_9_1_first_words": {
+    "text": "بَرَآءَةٞ مِّن",
+    "expected": false
+  },
+  "bismillah_reversed": {
+    "text": "ِميِحَّرلِ۬ا ِنَٰمْحَّرلِ۬ا ِهَّللِ۬ا ِمْسِب",
+    "expected": false
+  },
+  "bismillah_missing_last_char": {
+    "text": "بِسْمِ اِ۬للَّهِ اِ۬لرَّحْمَٰنِ اِ۬لرَّحِيمX",
+    "expected": false
+  },
+  "bismillah_middle_char_deleted": {
+    "text": "بِسْمِ اِ۬للَّه اِ۬لرَّحْمَٰنِ اِ۬لرَّحِيمِ",
+    "expected": false
+  },
+  "bismillah_without_diacritics": {
+    "text": "بسم الله الرحمن الرحيم",
+    "expected": false
+  },
+  "istiadha_without_diacritics": {
+    "text": "فاستعذ بالله من الشيطن الرجيم",
+    "expected": false
+  },
+  "bismillah_plus_extra_char": {
+    "text": "بِسْمِ اِ۬للَّهِ اِ۬لرَّحْمَٰنِ اِ۬لرَّحِيمِX",
+    "expected": false
+  },
+  "bismillah_middle_span_20_40": {
+    "text": "لرَّحْمَٰنِ اِ۬لرَّح",
+    "expected": true
+  }
+}

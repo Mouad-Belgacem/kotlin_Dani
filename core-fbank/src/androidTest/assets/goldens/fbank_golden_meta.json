@@ -1,0 +1,9 @@
+{
+  "sampleRate": 16000,
+  "durationSeconds": 3.0,
+  "numSamples": 48000,
+  "numFrames": 300,
+  "featureDim": 80,
+  "sourceAudio": "Dani_app/audio.wav (lecture seule, premieres 3s)",
+  "maxDiffOneShotVsChunked": 0.0
+}

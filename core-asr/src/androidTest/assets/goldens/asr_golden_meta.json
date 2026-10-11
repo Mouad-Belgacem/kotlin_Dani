@@ -1,0 +1,84 @@
+{
+  "sampleRate": 16000,
+  "durationSeconds": 5.0,
+  "numSamples": 80000,
+  "numFbankFrames": 500,
+  "numChunks": 9,
+  "numClasses": 92,
+  "blankId": 0,
+  "decodedText": "بِسمِللَااهِررَحمَاانِررَحِےےےےم",
+  "tokenIds": [
+    7,
+    36,
+    17,
+    29,
+    36,
+    66,
+    34,
+    45,
+    31,
+    36,
+    54,
+    34,
+    11,
+    29,
+    34,
+    45,
+    30,
+    36,
+    54,
+    34,
+    11,
+    36,
+    85,
+    29
+  ],
+  "chunks": [
+    {
+      "featLen": 77,
+      "outLen": 16,
+      "numNewTokens": 0
+    },
+    {
+      "featLen": 77,
+      "outLen": 16,
+      "numNewTokens": 3
+    },
+    {
+      "featLen": 77,
+      "outLen": 16,
+      "numNewTokens": 5
+    },
+    {
+      "featLen": 77,
+      "outLen": 16,
+      "numNewTokens": 4
+    },
+    {
+      "featLen": 77,
+      "outLen": 16,
+      "numNewTokens": 5
+    },
+    {
+      "featLen": 77,
+      "outLen": 16,
+      "numNewTokens": 3
+    },
+    {
+      "featLen": 77,
+      "outLen": 16,
+      "numNewTokens": 2
+    },
+    {
+      "featLen": 77,
+      "outLen": 16,
+      "numNewTokens": 2
+    },
+    {
+      "featLen": 77,
+      "outLen": 16,
+      "numNewTokens": 0
+    }
+  ],
+  "sourceAudio": "Dani_app/audio.wav (lecture seule, premieres 5s)"
+}

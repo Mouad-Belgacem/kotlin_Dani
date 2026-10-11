@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:label="الداني"
+        android:theme="@android:style/Theme.Material.NoActionBar">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Material.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Outil de test uniquement - voir DebugAudioPlaybackReceiver.kt. A retirer avant tout build de production reelle. -->
+        <receiver
+            android:name=".DebugAudioPlaybackReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.tarteelwarsh.tilawa.DEBUG_PLAY_TEST_AUDIO" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

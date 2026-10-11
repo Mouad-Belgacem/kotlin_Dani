@@ -1,0 +1,31 @@
+*.iml
+.gradle/
+/local.properties
+.idea/
+.DS_Store
+/build/
+/captures
+.externalNativeBuild/
+.cxx/
+*/build/
+
+# Modele Zipformer (248 Mo) copie ici pour les tests instrumentes de
+# core-asr - jamais commite (deja ignore a la racine du repo sous
+# zipformer_streaming_onnx_standard/, source canonique de ce fichier).
+core-asr/src/androidTest/assets/model/
+
+# Modele segmenter (~291 Mo) copie ici pour les tests instrumentes de
+# core-segmenter - jamais commite (source canonique a la racine du repo sous
+# segmenter_onnx/, generee par scripts/export_segmenter_onnx.py).
+core-segmenter/src/androidTest/assets/model/
+
+# Modeles Zipformer + segmenter (~550 Mo cumules) copies ici pour le test
+# fonctionnel de bout en bout de core-pipeline - jamais commites, memes
+# sources canoniques que core-asr/core-segmenter ci-dessus.
+core-pipeline/src/androidTest/assets/model/
+core-pipeline/src/androidTest/assets/audio/
+
+# Memes modeles, cette fois dans les assets de PRODUCTION de l'app reelle
+# (necessaires pour qu'elle fonctionne hors-ligne) - toujours pas commites,
+# memes sources canoniques a la racine du repo.
+app/src/main/assets/model/
